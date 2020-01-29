@@ -10,7 +10,7 @@
     <fragment
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.2"
+        android:layout_weight="0.1"
         android:id="@+id/fragment_estatico"
         class="com.example.proyectopersonas.fragments.FragmentCabecera"></fragment>
 
@@ -18,14 +18,12 @@
         android:id="@+id/sitio_fragments"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.8">
+        android:layout_weight="0.9">
 
-        <TextView
+
+        <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="No hay fragments cargados"
-            android:textSize="30sp"
-            android:gravity="center"></TextView>
+            android:layout_height="match_parent" />
 
     </FrameLayout>
 
